@@ -4,7 +4,7 @@ import 'dart:math';
 
 void main() {
   List<String> lines =
-      File('bin/1.0/a_conditioner/input.txt').readAsLinesSync();
+      File('bin/1.0/1/a_conditioner/input.txt').readAsLinesSync();
 
   int troom = int.parse(lines[0].split(' ')[0]);
   int tcond = int.parse(lines[0].split(' ')[1]);

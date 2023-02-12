@@ -4,7 +4,7 @@ import 'dart:math';
 
 void main() {
   List<String> lines =
-      File('bin/1.0/f_ placement_of_laptops/input.txt').readAsLinesSync();
+      File('bin/1.0/1/f_ placement_of_laptops/input.txt').readAsLinesSync();
 
   List<String> input = lines[0].split(' ');
   List<int> inputToInt = input.map((e) => int.parse(e)).toList();

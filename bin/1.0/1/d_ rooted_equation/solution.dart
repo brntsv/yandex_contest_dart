@@ -9,7 +9,7 @@ import 'dart:io';
 
 void main() {
   List<String> lines =
-      File('bin/1.0/d_ rooted_equation/input.txt').readAsLinesSync();
+      File('bin/1.0/1/d_ rooted_equation/input.txt').readAsLinesSync();
 
   int a = int.parse(lines[0]);
   int b = int.parse(lines[1]);

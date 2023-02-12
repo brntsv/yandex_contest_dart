@@ -8,7 +8,7 @@ detail - деталь
 */
 
 void main() {
-  List<String> lines = File('bin/1.0/g_details/input.txt').readAsLinesSync();
+  List<String> lines = File('bin/1.0/1/g_details/input.txt').readAsLinesSync();
   List<String> input = lines[0].split(' ');
   List<int> inputToInt = input.map((e) => int.parse(e)).toList();
 

@@ -2,7 +2,7 @@ import 'dart:io';
 // https://contest.yandex.ru/contest/27393/problems/B/
 
 void main() {
-  List<String> lines = File('bin/1.0/b_triangle/input.txt').readAsLinesSync();
+  List<String> lines = File('bin/1.0/1/b_triangle/input.txt').readAsLinesSync();
 
   int a = int.parse(lines[0]);
   int b = int.parse(lines[1]);

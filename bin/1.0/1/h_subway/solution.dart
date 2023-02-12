@@ -3,7 +3,7 @@ import 'dart:math';
 // https://contest.yandex.ru/contest/27393/problems/H/
 
 void main() {
-  List<String> lines = File('bin/1.0/h_subway/input.txt').readAsLinesSync();
+  List<String> lines = File('bin/1.0/1/h_subway/input.txt').readAsLinesSync();
   int a = int.parse(lines[0]);
   int b = int.parse(lines[1]);
   int n = int.parse(lines[2]);

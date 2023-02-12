@@ -3,7 +3,7 @@ import 'dart:io';
 
 void main() {
   List<String> lines =
-      File('bin/1.0/c_phone_numbers/input.txt').readAsLinesSync();
+      File('bin/1.0/1/c_phone_numbers/input.txt').readAsLinesSync();
   var re = RegExp(r'^[+]?[7|8]?|[-()]');
   String myNum = lines[0].replaceAll(re, '');
   String num1 = lines[1].replaceAll(re, '');

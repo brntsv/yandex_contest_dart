@@ -3,7 +3,7 @@ import 'dart:io';
 
 void main() {
   List<String> lines =
-      File('bin/1.0/i_prisoner_of_the_castle_if/input.txt').readAsLinesSync();
+      File('bin/1.0/1/i_prisoner_of_the_castle_if/input.txt').readAsLinesSync();
   int a = int.parse(lines[0]);
   int b = int.parse(lines[1]);
   int c = int.parse(lines[2]);
