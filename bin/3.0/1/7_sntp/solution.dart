@@ -15,9 +15,6 @@ void main() {
     diff = cSec + (24 * 3600 - aSec);
   }
   int timeResponse = int.parse((diff / 2).toStringAsFixed(0));
-  print(diff);
-  print(timeResponse);
-  print('---------');
 
   String calibrateTime() {
     int hrs, min, sec;
@@ -25,9 +22,6 @@ void main() {
       hrs = timeResponse ~/ 3600;
       min = (timeResponse - hrs * 3600) ~/ 60;
       sec = timeResponse - (hrs * 3600) - (min * 60);
-      print(hrs);
-      print(min);
-      print(sec);
     } else if (timeResponse > 60 && timeResponse < 3600) {
       hrs = 0;
       min = timeResponse ~/ 60;
@@ -37,7 +31,6 @@ void main() {
       min = 0;
       sec = timeResponse;
     }
-    print('---------');
     List<int> d = [b[0] + hrs, b[1] + min, b[2] + sec];
     if (d[2] > 59) {
       d[1] = d[1] + 1;
@@ -50,7 +43,6 @@ void main() {
     if (d[0] > 23) {
       d[0] = d[0] - 24;
     }
-    print(d);
     return [
       d[0] < 10 ? '0${d[0]}' : d[0],
       d[1] < 10 ? '0${d[1]}' : d[1],
