@@ -2,7 +2,7 @@ import 'dart:io';
 // https://contest.yandex.ru/contest/45468/problems/18/
 
 void main() {
-  List<String> lines = File('bin/3.0/1/18_deque_with_protect_errors/input.txt')
+  List<String> lines = File('bin/3.0/2/18_deque_with_protect_errors/input.txt')
       .readAsLinesSync();
   List<int> deque = [];
   for (var line in lines) {

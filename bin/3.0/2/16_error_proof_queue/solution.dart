@@ -3,7 +3,7 @@ import 'dart:io';
 
 void main() {
   List<String> lines =
-      File('bin/3.0/1/16_error_proof_queue/input.txt').readAsLinesSync();
+      File('bin/3.0/2/16_error_proof_queue/input.txt').readAsLinesSync();
   List<int> queue = [];
   int head = 0;
   for (var line in lines) {

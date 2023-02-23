@@ -3,7 +3,7 @@ import 'dart:io';
 
 void main() {
   List<String> lines =
-      File('bin/3.0/1/17_play_in_drunker/input.txt').readAsLinesSync();
+      File('bin/3.0/2/17_play_in_drunker/input.txt').readAsLinesSync();
   List<String> listOne = lines[0].split(' ');
   List<String> listTwo = lines[1].split(' ');
   List<int> first = [];
