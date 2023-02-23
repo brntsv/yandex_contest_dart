@@ -4,7 +4,7 @@ import 'dart:math';
 
 void main() {
   List<String> lines =
-      File('bin/3.0/1/1_bar_chart/input.txt').readAsLinesSync();
+      File('bin/3.0/warm_up/1_bar_chart/input.txt').readAsLinesSync();
   List<String> input = [];
   Map<String, int> map = {};
   for (var line in lines) {

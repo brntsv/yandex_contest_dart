@@ -5,7 +5,7 @@ import 'dart:io';
 
 void main() {
   List<String> lines =
-      File('bin/3.0/1/2_beautiful_string/input.txt').readAsLinesSync();
+      File('bin/3.0/warm_up/2_beautiful_string/input.txt').readAsLinesSync();
 
   List<String> input = lines[1].split('');
   List<String> letters = List.generate(26, (i) => String.fromCharCode(i + 97));

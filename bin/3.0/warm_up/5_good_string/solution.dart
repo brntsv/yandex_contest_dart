@@ -3,7 +3,7 @@ import 'dart:io';
 
 void main() {
   List<String> lines =
-      File('bin/3.0/1/5_good_string/input.txt').readAsLinesSync();
+      File('bin/3.0/warm_up/5_good_string/input.txt').readAsLinesSync();
   List<int> countL = [];
   for (int i = 1; lines.length > i; i++) {
     countL.add(int.parse(lines[i]));

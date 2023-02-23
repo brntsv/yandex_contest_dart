@@ -4,7 +4,7 @@ import 'dart:io';
 
 void main() {
   List<String> lines =
-      File('bin/3.0/1/10_boring_session/input.txt').readAsLinesSync();
+      File('bin/3.0/warm_up/10_boring_session/input.txt').readAsLinesSync();
   List<String> input = lines[0].split('');
   SplayTreeMap<String, int> result = SplayTreeMap();
   for (int i = 0; input.length > i; i++) {
