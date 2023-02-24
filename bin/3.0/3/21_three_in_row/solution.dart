@@ -1,6 +1,7 @@
 import 'dart:io';
 /* https://contest.yandex.ru/contest/45468/problems/21/
 
+Tribonacci
 0, 1 = 2
 00, 01, 10, 11 = 4
 000, 001, 010, 011, 100, 101, 110 = 7
@@ -13,7 +14,10 @@ void main() {
   int n = int.parse(lines[0]);
   List<int> dp = [2, 4, 7, 13];
   for (int i = 4; n > i; i++) {
-    dp.add(2 * dp[i - 1] - dp[i - 4]);
+    dp.add(dp[i - 1] + dp[i - 2] + dp[i - 3]);
   }
   print(dp[n - 1]);
 }
+
+// Вариант 2
+// dp.add(2 * dp[i - 1] - dp[i - 4]);
