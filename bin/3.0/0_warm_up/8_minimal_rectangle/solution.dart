@@ -5,7 +5,7 @@ import 'dart:math';
 
 void main() {
   List<String> lines =
-      File('bin/3.0/warm_up/8_minimal_rectangle/input.txt').readAsLinesSync();
+      File('bin/3.0/0_warm_up/8_minimal_rectangle/input.txt').readAsLinesSync();
   List<String> input = [];
   for (int i = 1; lines.length > i; i++) {
     input.addAll(lines[i].split(' '));

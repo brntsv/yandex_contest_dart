@@ -4,7 +4,7 @@ import 'dart:io';
 
 void main() {
   List<String> lines =
-      File('bin/3.0/warm_up/3_diego/input.txt').readAsLinesSync();
+      File('bin/3.0/0_warm_up/3_diego/input.txt').readAsLinesSync();
   List<int> stickDiego =
       lines[1].split(' ').map((e) => int.parse(e)).toSet().toList()..sort();
   List<int> stickersK = lines[3].split(' ').map((e) => int.parse(e)).toList();

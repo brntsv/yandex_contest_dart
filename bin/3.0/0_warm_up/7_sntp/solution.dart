@@ -4,7 +4,7 @@ import 'dart:io';
 
 void main() {
   List<String> lines =
-      File('bin/3.0/warm_up/7_sntp/input.txt').readAsLinesSync();
+      File('bin/3.0/0_warm_up/7_sntp/input.txt').readAsLinesSync();
   List<int> a = lines[0].split(':').map((e) => int.parse(e)).toList();
   List<int> b = lines[1].split(':').map((e) => int.parse(e)).toList();
   List<int> c = lines[2].split(':').map((e) => int.parse(e)).toList();

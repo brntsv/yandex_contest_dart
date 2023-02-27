@@ -3,7 +3,7 @@ import 'dart:io';
 
 void main() {
   List<String> lines =
-      File('bin/3.0/warm_up/6_operation_systems_lite/input.txt')
+      File('bin/3.0/0_warm_up/6_operation_systems_lite/input.txt')
           .readAsLinesSync();
   int n = int.parse(lines[1]);
   List<List<int>> systems = [];

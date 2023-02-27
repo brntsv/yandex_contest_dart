@@ -3,7 +3,7 @@ import 'dart:io';
 
 void main() {
   List<String> lines =
-      File('bin/3.0/warm_up/9_sum_in_rectangle/input.txt').readAsLinesSync();
+      File('bin/3.0/0_warm_up/9_sum_in_rectangle/input.txt').readAsLinesSync();
   int n = int.parse(lines[0].split(' ')[0]);
   int m = int.parse(lines[0].split(' ')[1]);
   int k = int.parse(lines[0].split(' ')[2]);

@@ -3,7 +3,7 @@ import 'dart:io';
 
 void main() {
   List<String> lines =
-      File('bin/3.0/warm_up/4_control_work/input.txt').readAsLinesSync();
+      File('bin/3.0/0_warm_up/4_control_work/input.txt').readAsLinesSync();
   int n = int.parse(lines[0]);
   int k = int.parse(lines[1]);
   int row = int.parse(lines[2]);
