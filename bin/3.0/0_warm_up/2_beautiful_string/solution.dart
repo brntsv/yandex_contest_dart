@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'dart:math';
 // https://contest.yandex.ru/contest/45468/problems/2/
 
 // O(a*n), где a - размер алфавита
@@ -32,7 +33,7 @@ void main() {
           }
         }
       }
-      repeat = input.getRange(i, j).length;
+      repeat = max(repeat, j - i);
       repeat > maxRepeat ? maxRepeat = repeat : maxRepeat;
     }
   }
