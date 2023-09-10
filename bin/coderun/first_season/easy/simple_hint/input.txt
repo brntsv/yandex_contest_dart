@@ -1,0 +1,6 @@
+5
+sayHello
+println
+sleep
+spendMoney
+log
