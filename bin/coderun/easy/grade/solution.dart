@@ -14,7 +14,7 @@
 import 'dart:io';
 
 void main() {
-  List<String> lines = File('bin/contest/1_grades/input.txt').readAsLinesSync();
+  List<String> lines = File('bin/coderun/easy/grade/input.txt').readAsLinesSync();
   List<int> grades = lines[0].split(' ').map(int.parse).toList();
   int a = grades[0];
   int b = grades[1];
